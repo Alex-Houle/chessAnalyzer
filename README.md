@@ -12,6 +12,15 @@ missed mates and missed tactics, accuracy, and an evaluation graph.
 - Rust (stable), Node.js 20+
 - `stockfish` on the `PATH`, or `STOCKFISH_PATH` pointing at the binary
 
+## Install
+
+```sh
+./install.sh
+```
+
+Checks that Rust, Node.js and Stockfish actually run (offering to install any that are
+missing via pacman, apt or dnf), then builds the frontend and the backend.
+
 ## Run
 
 Production-style (the backend serves the built frontend):
