@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Warm dark neutrals for the page chrome, replacing the default stone shades. */
+@theme {
+  --color-stone-950: #161412;
+  --color-stone-900: #211f1c;
+  --color-stone-800: #2e2b27;
+  --color-stone-700: #403c37;
+  --color-stone-600: #57534e;
+}
+
+:root {
+  color-scheme: dark;
+}
